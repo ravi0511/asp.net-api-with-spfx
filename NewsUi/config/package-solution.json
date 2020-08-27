@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "zacco-news-client-side-solution",
+    "id": "aa5f9282-c1bc-4cba-b5d2-e5d3af8733d7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/zacco-news.sppkg"
+  }
+}

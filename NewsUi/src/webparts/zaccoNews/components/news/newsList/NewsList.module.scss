@@ -1,0 +1,15 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.newsList {
+  .newsItem {
+    padding-bottom: 15px;
+
+    .newsTitle {
+      font-size: 2em;
+      font-weight: bold;
+    }
+    .author {
+      font-weight: bold;
+    }
+  }
+}

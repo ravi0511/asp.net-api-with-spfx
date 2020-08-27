@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "zacco-news-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/zaccoNews/ZaccoNewsWebPart.js",
+          "manifest": "./src/webparts/zaccoNews/ZaccoNewsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ZaccoNewsWebPartStrings": "lib/webparts/zaccoNews/loc/{locale}.js"
+  }
+}
